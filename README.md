@@ -143,6 +143,26 @@ STL files for the camera case are available in the [`hardware/`](hardware/) dire
 
 ---
 
+## Photo Samples — Straight Out of Camera (No Filters)
+
+<p align="center">
+  <img src="docs/s_01.jpg" width="400">
+</p>
+
+<p align="center">
+  <img src="docs/s_02.jpg" width="400">
+</p>
+
+<p align="center">
+  <img src="docs/s_03.jpg" width="400">
+</p>
+
+<p align="center">
+  <img src="docs/s_04.jpg" width="400">
+</p>
+
+---
+
 ## Roadmap
 
 - [x] Live preview + full manual controls
