@@ -3,7 +3,7 @@
 ### Open-source digital camera with film simulation
 
 <p align="center">
-  <img src="docs/1.jpg" width="600">
+  <img src="docs/1.jpg" width="400">
 </p>
 
 > 🚧 **Firmware release coming soon.** Star this repo to get notified.
@@ -77,26 +77,48 @@ STL files for the camera case are available in the [`hardware/`](hardware/) dire
 ## Film Samples
 
 <p align="center">
-  <img src="docs/0_filter.jpg">
+  <img src="docs/0_filter.jpg" width="400">
 </p>
 
 <p align="center">
-  <img src="docs/gold.jpg">
+  <img src="docs/gold.jpg" width="400">
 </p>
 
 <p align="center">
-  <img src="docs/TriX.jpg">
+  <img src="docs/TriX.jpg" width="400">
 </p>
 
 <p align="center">
-  <img src="docs/Fuji.jpg">
+  <img src="docs/fuji.jpg" width="400">
 </p>
 
 <p align="center">
-  <img src="docs/Saturnix.jpg">
+  <img src="docs/Saturnix.jpg" width="400">
 </p>
 
-> 📸 Sample photos coming soon
+---
+
+Camera Photo
+
+<p align="center">
+  <img src="docs/1.jpg" width="400">
+</p>
+
+<p align="center">
+  <img src="docs/2.jpg" width="400">
+</p>
+
+<p align="center">
+  <img src="docs/3.jpg" width="400">
+</p>
+
+<p align="center">
+  <img src="docs/4.jpg" width="400">
+</p>
+
+<p align="center">
+  <img src="docs/5.jpg" width="400">
+</p>
 
 ---
 
