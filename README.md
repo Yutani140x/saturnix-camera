@@ -2,9 +2,7 @@
 
 ### Open-source digital camera with film simulation
 
-<!--
-![SATURNIX Camera](docs/hero.jpg)
--->
+![SATURNIX Camera](docs/1.jpg)
 
 > 🚧 **Firmware release coming soon.** Star this repo to get notified.
 
