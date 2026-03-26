@@ -208,7 +208,7 @@ This project uses a **dual license** model:
 
 | What | License | Commercial use |
 |---|---|---|
-| **Firmware** (Python code) | [MIT License](LICENSE) | Requires permission ([details](LICENSE-COMMERCIAL.md)) |
+| **Firmware** (Python code) | [MIT License](LICENSE) | Requires permission ([details](LICENSE-COMMERCIAL)) |
 | **Hardware** (STL, 3D models) | [CC BY-NC-SA 4.0](hardware/LICENSE-HARDWARE.md) | Requires permission ([details](hardware/LICENSE-HARDWARE.md))|
 
 **Personal, educational, and non-commercial use** — fully free and open.
