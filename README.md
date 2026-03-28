@@ -48,6 +48,16 @@ and what a camera can feel like when it’s built for yourself, not for an audie
 
 ---
 
+## Early prototype (v0)
+
+### This was one of the first working versions — about a year ago.
+
+At this stage, the focus was purely on getting everything to work:
+sensor, controls, UI, and basic interaction.
+No design, no ergonomics - just raw functionality.
+
+---
+
 ## Getting Started
 The project is still in active development.
 
