@@ -17,7 +17,9 @@ Join the **Saturnix** community:
 
 ## What it is
 
-SATURNIX is a DIY digital camera built on Raspberry Pi Zero 2W with a 16MP autofocus sensor, 2" LCD viewfinder, and built-in film simulation engine. It shoots RAW+JPG and processes photos on-device with JPEG presets processed on-device, designed to mimic film-inspired color response — from S-Gold to a custom saturnix preset.
+SATURNIX is a DIY digital camera built on a Raspberry Pi Zero 2W with a 16MP autofocus sensor and a small LCD viewfinder.
+It shoots RAW+JPG and processes photos on-device using simple JPEG presets inspired by film stocks.
+Everything runs locally on the device. No cloud, no external apps.
 
 ---
 
@@ -46,7 +48,7 @@ The goal is not to compete with commercial cameras, but to explore:
 - Autofocus modes: AF-C (continuous with lock), AF-S (single shot), MF (manual)
 
 **Film Simulations**
-- **SATURNIX** — signature preset: golden light, indigo shadows, bloom
+- **Saturnix** — signature preset: golden light, indigo shadows, bloom
 - **S-Gold** — warm, vintage, creamy tones
 - **S-Vivid** — higher saturation, stronger contrast, more aggressive sharpening
 - **S-Natural** — cool greens, balanced tones
