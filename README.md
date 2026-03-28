@@ -95,6 +95,56 @@ STL files for the camera case are available in the [`hardware/`](hardware/) dire
 
 ---
 
+## Current limitations
+
+This project is still experimental and has several practical limitations:
+
+### Performance⚠️
+
+- Boot time is relatively long (~1 minute)
+- Each photo currently takes ~8–14 seconds to process
+
+The main reason is how the camera pipeline works right now:
+
+- LiveView stops the camera (picamera2.stop + close) — ~1–2s  
+- rpicam-still reinitializes the camera from scratch — ~3–5s  
+- Capture — ~0.5–2s  
+- Saving to SD card — ~1s  
+- LiveView starts the camera again — ~3–5s  
+
+Most of the delay comes from restarting the camera twice per shot, not the capture itself.
+
+### Hardware & Assembly
+
+- Requires soldering (not beginner-friendly yet)
+- Current enclosure is designed for resin 3D printing
+- Assembly is more complex than a typical DIY project
+- Instructions are still in progress
+
+### Project Scope
+
+- Designed as a DIY camera, not a polished consumer product
+- Strong focus on making the design simpler and more accessible over time
+- Considering an FDM-printable version of the enclosure (not implemented yet) Despite these limitations, the camera has been tested in real-world use (including multi-day outdoor trips) and works reliably.
+
+---
+
+## UI Design & Architecture:
+
+Colors: Solid colors only, no gradients in UI elements. We use amber (255,191,0), white, and black as the primary palette.
+Typography: TTF — we load the DejaVu Sans Bold 14px font using the ImageFont.truetype() method of the Pillow library. **Custom fonts with a reduced number of glyphs are also suitable and will save some memory.**
+Shapes: Rectangles, lines, and polygons — all drawn using the Pillow library's ImageDraw. Circles are intentionally avoided for a more angular/technical aesthetic. No anti-aliasing.
+Animation: Minimal — a blinking autofocus indicator, a dotted reticle during capture, and an animated progress bar. Everything is redrawn frame by frame, so any simple state-driven animation is possible.
+
+Regarding icons/images: Technically possible (PIL can compose PNG files), but I haven't used them yet—right now, everything is text and geometry. The priority is a lightweight interface, since each frame must be composed with the camera's video stream and transmitted over SPI.
+Resolution: 320x240, so essentially every pixel matters.
+
+The main limitation of the project is the processor: a 2W Pi Zero running at 1 GHz, so the UI rendering time must remain within ~15 ms to maintain an acceptable preview frame rate. The MAIN bottleneck is the limited performance of the Raspberry Pi, so my priority right now is optimizing the process rather than adding new features or improving the interface's visual design.
+
+The UI intentionally follows an old terminal-like aesthetic — simple geometry and symbolic graphics instead of modern interface elements. I like the aesthetics and it also reduces CPU and memory usage.
+
+---
+
 ## Camera Photo
 
 <p align="center">
