@@ -125,7 +125,9 @@ Most of the delay comes from restarting the camera twice per shot, not the captu
 
 - Designed as a DIY camera, not a polished consumer product
 - Strong focus on making the design simpler and more accessible over time
-- Considering an FDM-printable version of the enclosure (not implemented yet) Despite these limitations, the camera has been tested in real-world use (including multi-day outdoor trips) and works reliably.
+- Considering an FDM-printable version of the enclosure (not implemented yet)
+
+## Despite these limitations, the camera has been tested in real-world use (including multi-day outdoor trips) and works reliably for still photography.
 
 ---
 
