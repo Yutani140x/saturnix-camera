@@ -25,21 +25,23 @@ Image capture and processing run entirely on the Raspberry Pi. No external apps 
 
 ## Why this exists
 
-SATURNIX started as a personal project.
+It all started with a personal project a year ago.
 
-I wanted a camera that was as simple as possible, had an interesting design, and was completely under my control.
-Not optimized for specs, not built for social media—just something I'd genuinely want to carry around, experiment with, and just shoot.
+I just wanted a camera that I actually enjoy using — something simple, tactile, and fully under my control.
+Modern cameras felt either too complex, too polished, or built around everything except the experience of shooting.
 
-I couldn’t find anything like that, especially in the open-source space, so I built it myself.
+I couldn’t find anything open or customizable that felt right, so I decided to build one myself.
 
-This project is not trying to compete with commercial cameras.
+I care a lot about how a camera feels in your hands — the buttons, the UI, the overall experience.
+That's why a significant part of this project is dedicated to design and hardware, and not just code.
 
-It’s an exploration of:
-- minimal, focused camera systems  
-- local-first workflows (no cloud, no distractions)  
-- custom imaging pipelines you can fully understand and modify  
+This isn’t meant to compete with commercial cameras.
+It’s more of an exploration of:
 
-It's also about experience—how the camera feels in your hands, how it responds, and how it stays out of the way, allowing you to simply shoot.
+minimal camera systems
+local-first workflows
+custom image pipelines
+and what a camera can feel like when it’s built for yourself, not for an audience
 
 **If other people find it useful or interesting — that’s a bonus.**
 
