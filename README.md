@@ -52,6 +52,18 @@ and what a camera can feel like when it’s built for yourself, not for an audie
 
 ### This was one of the first working versions — about a year ago.
 
+<p align="center">
+  <img src="docs/prototype_1.jpg" width="500">
+</p>
+
+<p align="center">
+  <img src="docs/prototype_2.jpg" width="500">
+</p>
+
+<p align="center">
+  <img src="docs/prototype_3.jpg" width="500">
+</p>
+
 At this stage, the focus was purely on getting everything to work:
 sensor, controls, UI, and basic interaction.
 No design, no ergonomics - just raw functionality.
