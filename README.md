@@ -9,7 +9,7 @@
 > 🚧 **Firmware release coming soon.** Star this repo to get notified.
 
 ---
-Join the **Saturnix** community:
+## Join our Discord community to stay up to date with development updates and news:
 
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/9S6AgTT6k6)
 
@@ -127,7 +127,7 @@ Most of the delay comes from restarting the camera twice per shot, not the captu
 - Strong focus on making the design simpler and more accessible over time
 - Considering an FDM-printable version of the enclosure (not implemented yet)
 
-## Despite these limitations, the camera has been tested in real-world use (including multi-day outdoor trips) and works reliably for still photography.
+### Despite these limitations, the camera has been tested in real-world use (including multi-day outdoor trips) and works reliably for still photography.
 
 ---
 
@@ -262,9 +262,18 @@ Saturnix film **(in development)**
 
 ---
 
+RAW (DNG) files from Saturnix are available.
+
+No edits, straight from the camera.
+
+Download here:
+https://drive.google.com/drive/folders/19HZnG9zmNsQW2zrbjA84-G9dMtUlpbSJ?usp=drive_link
+
+---
+
 ## Installation
 
-> ⏳ Pre-built image and installation guide will be available with the first public release.
+> ⏳ Pre-built image and installation guide will be available with the first public release. You can follow the dev blog in the project's Discord community.
 
 ---
 
