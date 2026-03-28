@@ -102,7 +102,7 @@ The project is still in active development.
 STL files for the camera case are ~~available~~ in the [`hardware/`](hardware/) directory.
 
 <p align="center">
-  <img src="docs/fusion_1.jpg">
+  <img src="docs/Fusion_1.jpg">
 </p>
 
 ---
