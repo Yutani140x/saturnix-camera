@@ -21,6 +21,22 @@ SATURNIX is a DIY digital camera built on Raspberry Pi Zero 2W with a 16MP autof
 
 ---
 
+## Why this exists
+
+This project started as a personal experiment.
+
+I wanted to design and build my own camera from scratch.
+
+I also wanted something open, hackable, and fully under my control.
+I couldn’t find an open-source camera project like this, so I made one.
+
+The goal is not to compete with commercial cameras, but to explore:
+- minimal camera systems
+- local-first workflows
+- custom imaging pipelines
+
+---
+
 ## Features
 
 **Camera**
