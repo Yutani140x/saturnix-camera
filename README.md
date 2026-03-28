@@ -38,9 +38,10 @@ That's why a significant part of this project is dedicated to design and hardwar
 This isn’t meant to compete with commercial cameras.
 It’s more of an exploration of:
 
-minimal camera systems
-local-first workflows
-custom image pipelines
+- minimal camera systems
+- local-first workflows
+- custom image pipelines
+
 and what a camera can feel like when it’s built for yourself, not for an audience
 
 **If other people find it useful or interesting — that’s a bonus.**
