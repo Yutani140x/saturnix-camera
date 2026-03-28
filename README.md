@@ -99,7 +99,11 @@ The project is still in active development.
 
 ### 3D Printed Case
 
-STL files for the camera case are available in the [`hardware/`](hardware/) directory.
+STL files for the camera case are ~~available~~ in the [`hardware/`](hardware/) directory.
+
+<p align="center">
+  <img src="docs/fusion_1.jpg">
+</p>
 
 ---
 
