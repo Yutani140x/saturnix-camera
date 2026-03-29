@@ -7,6 +7,7 @@
 </p>
 
 > 🚧 **Firmware release coming soon.** Star this repo to get notified.
+> ## ⚠️Project is under active development, structure and features may change
 
 ---
 ## Join our Discord community to stay up to date with development updates and news:
