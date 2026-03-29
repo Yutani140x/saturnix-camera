@@ -140,7 +140,8 @@ The design takes a lot of cues from old 80s–90s electronics — that chunky, s
 ### 3D Printed Case
 
 STL files for the camera case are ~~available~~ in the [`hardware/`](hardware/) directory.
-__The case is designed for resin printing (FDM version is being considered)__
+
+**The case is designed for resin printing (FDM version is being considered)**
 
 <p align="center">
   <img src="docs/Fusion_1.jpg">
@@ -148,41 +149,25 @@ __The case is designed for resin printing (FDM version is being considered)__
 
 ---
 
-## Current limitations
+## Known issues
 
-This project is still experimental and has several practical limitations:
+This is still experimental. Here's what doesn't work great yet:
 
-### Performance⚠️
+### Speed ⚠️
 
-- Boot time is relatively long (~1 minute)
-- Each photo currently takes ~8–14 seconds to process
+- Takes about a minute to boot
+- Each photo takes 8–14 seconds to process
 
-The main reason is how the camera pipeline works right now:
+The slowness comes from how the camera pipeline works right now — it stops and restarts the camera twice for every shot. Most of the delay is that restart cycle, not the actual capture.
 
-- LiveView stops the camera (picamera2.stop + close) — ~1–2s  
-- rpicam-still reinitializes the camera from scratch — ~3–5s  
-- Capture — ~0.5–2s  
-- Saving to SD card — ~1s  
-- LiveView starts the camera again — ~3–5s  
+There's a fix planned: switching to a method that captures full-res without stopping the camera. That should bring it down to about 1.5–2.5 seconds per shot.
 
-Most of the delay comes from restarting the camera twice per shot, not the capture itself.
+### Assembly
 
-Performance is expected to improve. Current focus is on reaching a stable release.
-_(A planned improvement is switching to picamera2.switch_mode_and_capture_file(), which allows capturing full-resolution images without stopping the camera.
-Expected result: ~1.5–2.5s per shot instead of ~8–14s (5–6× faster).)_
-
-### Hardware & Assembly
-
-- Requires soldering (not beginner-friendly yet)
-- Current enclosure is designed for resin 3D printing
-- Assembly is more complex than a typical DIY project
-- Instructions are still in progress
-
-### Project Scope
-
-- Designed as a DIY camera, not a polished consumer product
-- Strong focus on making the design simpler and more accessible over time
-- Considering an FDM-printable version of the enclosure (not implemented yet)
+- Build process 
+- Build instructions are not ready yet 
+- Assembly is a bit complicated
+- Requires soldering — not beginner-friendly for now
 
 ### Despite these limitations, the camera has been tested in real-world use (including multi-day outdoor trips) and works reliably for still photography.
 
