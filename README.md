@@ -157,6 +157,10 @@ The main reason is how the camera pipeline works right now:
 
 Most of the delay comes from restarting the camera twice per shot, not the capture itself.
 
+Performance is expected to improve. Current focus is on reaching a stable release.
+_(A planned improvement is switching to picamera2.switch_mode_and_capture_file(), which allows capturing full-resolution images without stopping the camera.
+Expected result: ~1.5–2.5s per shot instead of ~8–14s (5–6× faster).)_
+
 ### Hardware & Assembly
 
 - Requires soldering (not beginner-friendly yet)
