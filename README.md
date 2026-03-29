@@ -175,10 +175,9 @@ There's a fix planned: switching to a method that captures full-res without stop
 ## UI:
 
 The interface is designed to look like an old terminal. I like that look, and it's also much lighter on the processor than a fancy UI.
-
-Colors: Solid only — amber (#FFBF00), white, and black
-Font: DejaVu Sans Bold 14px via Pillow
-Animation: Minimal — blinking AF indicator, a capture animation, a progress bar
+- Colors: Solid only — amber (#FFBF00), white, and black
+- Font: DejaVu Sans Bold 14px via Pillow
+- Animation: Minimal — blinking AF indicator, a capture animation, a progress bar
 The main constraint is the processor — a 1 GHz Pi Zero. UI rendering has to stay under ~15ms per frame to keep the preview smooth. Right now I'm focused on performance rather than adding features.
 
 ---
