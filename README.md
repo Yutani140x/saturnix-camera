@@ -173,19 +173,14 @@ There's a fix planned: switching to a method that captures full-res without stop
 
 ---
 
-## UI Design & Architecture:
+## UI:
 
-The user interface is designed to look and feel like an old terminal. I like this aesthetic, and it's also much lighter on the processor and memory, making it easier to develop. Here's roughly how it all works:
+The interface is designed to look like an old terminal. I like that look, and it's also much lighter on the processor than a fancy UI.
 
-- Colors: Solid colors only, no gradients in UI elements. We use amber (255,191,0), white, and black as the primary palette.
-- Typography: TTF — we load the DejaVu Sans Bold 14px font using the ImageFont.truetype() method of the Pillow library. **Custom fonts with a reduced number of glyphs are also suitable and will save some memory.**
-- Shapes: Rectangles, lines, and polygons — all drawn using the Pillow library's ImageDraw. Circles are intentionally avoided for a more angular/technical aesthetic. No anti-aliasing.
-- Animation: Minimal — a blinking autofocus indicator, a dotted reticle during capture, and an animated progress bar. Everything is redrawn frame by frame, so any simple state-driven animation is possible.
-
-**Regarding icons/images: Technically possible (PIL can compose PNG files), but I haven't used them yet—right now, everything is text and geometry. The priority is a lightweight interface, since each frame must be composed with the camera's video stream and transmitted over SPI.
-Resolution: 320x240, so essentially every pixel matters.**
-
-The main limitation of the project is the processor: a 2W Pi Zero running at 1 GHz, so the UI rendering time must remain within ~15 ms to maintain an acceptable preview frame rate. The MAIN bottleneck is the limited performance of the Raspberry Pi, so my priority right now is optimizing the process rather than adding new features or improving the interface's visual design.
+Colors: Solid only — amber (#FFBF00), white, and black
+Font: DejaVu Sans Bold 14px via Pillow
+Animation: Minimal — blinking AF indicator, a capture animation, a progress bar
+The main constraint is the processor — a 1 GHz Pi Zero. UI rendering has to stay under ~15ms per frame to keep the preview smooth. Right now I'm focused on performance rather than adding features.
 
 ---
 
