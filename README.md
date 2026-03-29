@@ -163,8 +163,7 @@ The slowness comes from how the camera pipeline works right now — it stops and
 There's a fix planned: switching to a method that captures full-res without stopping the camera. That should bring it down to about 1.5–2.5 seconds per shot.
 
 ### Assembly
-
-- Build process 
+ 
 - Build instructions are not ready yet 
 - Assembly is a bit complicated
 - Requires soldering — not beginner-friendly for now
