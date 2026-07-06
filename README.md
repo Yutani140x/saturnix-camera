@@ -334,22 +334,25 @@ This project uses a **multi-license** model:
 
 | What | License | Commercial use |
 |---|---|---|
-| **Firmware** | [MIT License](LICENSE) | Allowed |
+| **Firmware** (Python code) | [MIT License](LICENSE) | Allowed |
 | **Hardware** (STEP, STL, CAD files, 3D models, drawings, mechanical parts) | [CERN-OHL-S-2.0](hardware/LICENSE-HARDWARE.md) | Allowed under the license terms |
-| **SATURNIX name, logo, branding and visual identity** | Not licensed for branding use | Requires permission |
+| **SATURNIX name and branding** | Permitted for project-related use | Allowed with attribution |
 
 You may build, modify, distribute, and sell hardware based on this project,
 including modified versions, provided that you comply with the applicable
 open-source licenses.
 
-You may not sell, market, label, or present any product as **SATURNIX**,
-**SATURNIX Camera**, **official SATURNIX hardware**, or otherwise imply that it
-is manufactured, approved, warranted, or endorsed by the original author without
-explicit written permission.
+You may use the **SATURNIX** name for forks, modified versions, compatible
+parts, kits, builds, documentation, and commercial products based on this
+project.
 
-Factual attribution is allowed, for example:
+Please provide clear attribution to the original project where reasonable, for example:
 
 > Based on the SATURNIX Camera open-source hardware project by Yutani140x.
+
+Modified versions should clearly indicate that they are modified versions and
+should not falsely claim to be the original author's own build or release.
+
 ---
 
 ## Support the Project
