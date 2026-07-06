@@ -336,7 +336,6 @@ This project uses a **multi-license** model:
 |---|---|---|
 | **Firmware** | [MIT License](LICENSE) | Allowed |
 | **Hardware** (STEP, STL, CAD files, 3D models, drawings, mechanical parts) | [CERN-OHL-S-2.0](hardware/LICENSE-HARDWARE.md) | Allowed under the license terms |
-| **Documentation** (assembly instructions, images, text) | [CC BY-SA 4.0](docs/LICENSE-DOCUMENTATION.md) | Allowed under the license terms |
 | **SATURNIX name, logo, branding and visual identity** | Not licensed for branding use | Requires permission |
 
 You may build, modify, distribute, and sell hardware based on this project,
