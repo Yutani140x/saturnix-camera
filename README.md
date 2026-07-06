@@ -149,33 +149,24 @@ STL files for the camera case are **available** in the [`hardware/`](hardware/) 
 
 ## Known issues
 
-This is still experimental. Here's what doesn't work great yet:
-
-### Speed ⚠️
-
-- Takes about a minute to boot
-- Each photo takes 8–14 seconds to process
-
-The slowness comes from how the camera pipeline works right now — it stops and restarts the camera twice for every shot. Most of the delay is that restart cycle, not the actual capture.
-
-There's a fix planned: switching to a method that captures full-res without stopping the camera. That should bring it down to about 1.5–2.5 seconds per shot.
-
 ### Assembly
  
-- Build instructions are not ready yet 
+- The assembly instructions are being finalized.
 - Assembly is a bit complicated
-- Requires soldering — not beginner-friendly for now
-
-Despite these limitations, the camera has been tested in real-world use (including multi-day outdoor trips) and works reliably for still photography.
+- Requires soldering — **not beginner-friendly**
 
 ---
 
 ## UI:
 
 The interface is designed to look like an old terminal. I like that look, and it's also much lighter on the processor than a fancy UI.
-- Colors: Solid only — amber (#FFBF00), white, and black
-- Font: DejaVu Sans Bold 14px via Pillow
-- Animation: Minimal — blinking AF indicator, a capture animation, a progress bar
+- **Colors**: Solid only — amber (#FFBF00), white, and black
+- **Font**: DejaVu Sans Bold 14px via Pillow
+- **Animation**: Minimal — blinking AF indicator, a capture animation, a progress bar
+- **Optional atmosphere effects:** UI noise, decorative labels, and menu transition screens
+
+*Decorative effects can be adjusted or disabled in the firmware configuration
+file.*
 
 __The main constraint is the processor — a 1 GHz Pi Zero. UI rendering has to stay under ~15ms per frame to keep the preview smooth. Right now I'm focused on performance rather than adding features.__
 
@@ -194,12 +185,10 @@ __The main constraint is the processor — a 1 GHz Pi Zero. UI rendering has to 
 - [x] Buzzer audio feedback
 - [x] Gallery with DNG support
 - [x] Camera body and design improvements 
-- [ ] **Battery indicator (~~PiSugar2~~)** < **project at this stage**
-- [ ] Firmware update via USB
-- [ ] Firmware cleanup
-- [ ] Pre-built SD card image
-- [ ] Open source release preparation
-- [ ] Release
+- [x] Battery indicator
+- [x] Firmware cleanup
+- [x] Open source release preparation
+- [x] **Release**
 
 ---
 
