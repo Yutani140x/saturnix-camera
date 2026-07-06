@@ -330,13 +330,27 @@ https://drive.google.com/drive/folders/19HZnG9zmNsQW2zrbjA84-G9dMtUlpbSJ?usp=dri
 
 ## Licensing
 
-This project uses a **dual license** model:
+This project uses a **multi-license** model:
 
 | What | License | Commercial use |
 |---|---|---|
-| **Firmware** (Python code) | [MIT License](LICENSE) | [MIT License](LICENSE) |
-| **Hardware** (STL, 3D models) | [CC BY-NC-SA 4.0](hardware/LICENSE-HARDWARE.md) | Requires permission ([details](hardware/LICENSE-HARDWARE.md))|
+| **Firmware** | [MIT License](LICENSE) | Allowed |
+| **Hardware** (STEP, STL, CAD files, 3D models, drawings, mechanical parts) | [CERN-OHL-S-2.0](hardware/LICENSE-HARDWARE.md) | Allowed under the license terms |
+| **Documentation** (assembly instructions, images, text) | [CC BY-SA 4.0](docs/LICENSE-DOCUMENTATION.md) | Allowed under the license terms |
+| **SATURNIX name, logo, branding and visual identity** | Not licensed for branding use | Requires permission |
 
+You may build, modify, distribute, and sell hardware based on this project,
+including modified versions, provided that you comply with the applicable
+open-source licenses.
+
+You may not sell, market, label, or present any product as **SATURNIX**,
+**SATURNIX Camera**, **official SATURNIX hardware**, or otherwise imply that it
+is manufactured, approved, warranted, or endorsed by the original author without
+explicit written permission.
+
+Factual attribution is allowed, for example:
+
+> Based on the SATURNIX Camera open-source hardware project by Yutani140x.
 ---
 
 ## Support the Project
