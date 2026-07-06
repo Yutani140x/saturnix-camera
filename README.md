@@ -94,11 +94,10 @@ The design takes a lot of cues from old 80s–90s electronics — that chunky, s
 - Autofocus modes: AF-C (continuous with lock), AF-S (single shot), MF (manual)
 
 **JPEG presets (film-inspired)**
-- **Saturnix** — custom preset (in develop)
 - **S-Gold** — warm, vintage, creamy tones
-- **S-Vivid** — higher saturation, stronger contrast, more aggressive sharpening
-- **S-Natural** — neutral colors with slight green shift
-- **S-MonoX** — black & white with added contrast and grain
+- **EKTAR** — higher saturation, stronger contrast, more aggressive sharpening
+- **FUJI** — neutral colors with slight green shift
+- **TRIX** — black & white with added contrast and grain
 - **VHS** — lo-fi effect (scanlines, chromatic aberration, noise)
 
 **Interface**
@@ -107,7 +106,6 @@ The design takes a lot of cues from old 80s–90s electronics — that chunky, s
 - Live histogram with exposure traffic light
 - Composition grids (Thirds, Golden Ratio, Cross)
 - AF indicator with auto-detection
-- CPU temperature & storage monitoring
 - Persistent settings (survive reboot)
 
 **Connectivity**
@@ -131,7 +129,7 @@ The design takes a lot of cues from old 80s–90s electronics — that chunky, s
 | Display | Waveshare 2" IPS LCD (240×320, SPI) |
 | Audio | Passive buzzer (MH-FMD) on GPIO |
 | Storage | microSD (32GB+) |
-| Power | USB-C / ~~PiSugar2 battery~~ UPS HAT Waveshare (optional) |
+| Power | USB-C / UPS HAT Waveshare (optional) |
 
 **Buttons:** 5× mechanical low profile kailh switches — Left, Right, Select, Capture, Focus
 
@@ -139,12 +137,12 @@ The design takes a lot of cues from old 80s–90s electronics — that chunky, s
 
 ### 3D Printed Case
 
-STL files for the camera case are ~~available~~ in the [`hardware/`](hardware/) directory.
+STL files for the camera case are **available** in the [`hardware/`](hardware/) directory.
 
 **The case is designed for resin printing (FDM version is being considered)**
 
 <p align="center">
-  <img src="docs/Fusion_1.jpg">
+  <img src="docs/Fusion_1.png">
 </p>
 
 ---
