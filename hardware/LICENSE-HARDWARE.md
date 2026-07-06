@@ -8,7 +8,7 @@ The CERN-OHL-S is copyright CERN 2020. Anyone is welcome to use it, in unmodifie
 Use of this Licence does not imply any endorsement by CERN of any Licensor or their designs nor does it imply any involvement by CERN in their development.
 
 1 Definitions
-1.1 'Licence' means this CERN-OHL-S.
+- 1.1 'Licence' means this CERN-OHL-S.
 1.2 'Compatible Licence' means
 a) any earlier version of the CERN Open Hardware licence, or
 b) any version of the CERN-OHL-S, or
