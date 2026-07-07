@@ -142,7 +142,7 @@ STL files for the camera case are **available** in the [`hardware/`](hardware/) 
 **The case is designed for resin printing (FDM version is being considered)**
 
 <p align="center">
-  <img src="docs/Fusion_1.png">
+  <img src="docs/fusion_2.png">
 </p>
 
 ---
