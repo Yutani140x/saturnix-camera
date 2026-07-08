@@ -157,6 +157,8 @@ More importantly, V0 proved that the project could become a real handheld camera
 
 So I kept going.
 
+---
+
 ### First Usable Build (v1)
 **The first fully working version, about four months ago**
 
@@ -200,6 +202,8 @@ Even with all these problems, V1 was an important milestone. It had a real UI, i
 I traveled with this version for about a week in the mountains near Calgary and took many photos with it. That trip proved that SATURNIX was no longer just a bench experiment. It was already becoming a real camera.
 
 This was also the version I first shared online. To my surprise, it received much more attention than I expected — people reacted strongly to the physical design, the cassette-futurist look, and the idea of an open-source custom digital camera. That response was one of the reasons I decided to continue developing SATURNIX more seriously and prepare it as a public open-source project.
+
+---
 
 ## Version 2 — Current Release
 **A year later — this is where we ended up**
