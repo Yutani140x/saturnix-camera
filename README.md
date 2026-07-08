@@ -160,21 +160,24 @@ So I kept going.
 ### First Usable Build (v1)
 **The first fully working version, about four months ago**
 
-<p align="center">
-  <img src="docs/1.jpg" width="400">
-</p>
-
-<p align="center">
-  <img src="docs/2.jpg" width="400">
-</p>
-
-<p align="center">
-  <img src="docs/3.jpg" width="400">
-</p>
-
-<p align="center">
-  <img src="docs/4.jpg" width="400">
-</p>
+<table>
+  <tr>
+    <td width="50%">
+      <img src="docs/1.jpg" width="100%">
+    </td>
+    <td width="50%">
+      <img src="docs/2.jpg" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="docs/3.jpg" width="100%">
+    </td>
+    <td width="50%">
+      <img src="docs/4.jpg" width="100%">
+    </td>
+  </tr>
+</table>
 
 Version 1 was the first SATURNIX build that started to feel like a real camera rather than a loose prototype.
 
