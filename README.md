@@ -399,26 +399,63 @@ This tradeoff is part of the project. SATURNIX is not trying to compete with mod
 
 ## Camera Photo
 
+### Final Build Photos
+
+<p align="center">
+  <img src="docs/release_camera_1.png" width="500"/>
+</p>
+
+<p align="center">
+  <img src="docs/release_camera_2.png" width="500"/>
+</p>
+
+<p align="center">
+  <img src="docs/release_camera_3.png" width="500"/>
+</p>
+
+<p align="center">
+  <img src="docs/release_camera_4.png" width="500"/>
+</p>
 
 ---
 
-## UI Photo
+### UI Photo
 
-<p align="center">
-  <img src="docs/1_ui.jpg" width="400">
-</p>
-
-<p align="center">
-  <img src="docs/2_ui.jpg" width="400">
-</p>
-
-<p align="center">
-  <img src="docs/3_ui.jpg" width="400">
-</p>
+<table>
+  <tr>
+    <td width="50%">
+      <img src="docs/ui_2.png" width="100%">
+    </td>
+    <td width="50%">
+      <img src="docs/ui_1.png" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="docs/ui_3.png" width="100%">
+    </td>
+    <td width="50%">
+      <img src="docs/ui_4.png" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="docs/ui_5.png" width="100%">
+    </td>
+    <td width="50%">
+      <img src="docs/ui_6.png" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="docs/ui_7.png" width="50%">
+    </td>
+  </tr>
+</table>
 
 ---
 
-## Film Samples
+### Film Samples
 
 No filter
 <p align="center">
@@ -445,7 +482,7 @@ S-MonoX
 
 ---
 
-## Photo Samples — Straight Out of Camera (No Filters)
+### Photo Samples — Straight Out of Camera (No Filters)
 
 <p align="center">
   <img src="docs/s_01.jpg" width="400">
@@ -465,7 +502,7 @@ S-MonoX
 
 ---
 
-RAW (DNG) files from Saturnix are available.
+### RAW (DNG) files from Saturnix are available.
 
 No edits, straight from the camera.
 
