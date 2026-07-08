@@ -209,7 +209,7 @@ This was also the version I first shared online. To my surprise, it received muc
 **A year later — this is where we ended up**
 
 <p align="center">
-  <img src="docs/v2_front.jpg" width="500"/>
+  <img src="docs/release_camera_1.png" width="500"/>
 </p>
 
 Version 2 is the current public release of SATURNIX.
@@ -225,27 +225,15 @@ The goal was not to make SATURNIX look like a clean modern product. I wanted it 
 The case was also completely reworked visually. I experimented with painting and weathering for the first time: an aged ivory base, dark panel lines, washes, dry-brushing, worn labels, and small red details. The result feels much closer to the original idea — a camera that looks like it already has a history.
 
 <p align="center">
-  <img src="docs/v2_back.jpg" width="500"/>
+  <img src="docs/release_camera_2.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="docs/v2_back.jpg" width="500"/>
+  <img src="docs/release_camera_3.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="docs/v2_back.jpg" width="500"/>
-</p>
-
-<p align="center">
-  <img src="docs/v2_back.jpg" width="500"/>
-</p>
-
-<p align="center">
-  <img src="docs/v2_back.jpg" width="500"/>
-</p>
-
-<p align="center">
-  <img src="docs/v2_back.jpg" width="500"/>
+  <img src="docs/release_camera_4.png" width="500"/>
 </p>
 
 Compared to V1, this version is much more complete. The camera now has a proper internal battery setup, a more usable UI, Wi-Fi photo transfer, better feedback, more capture tools, and two different shooting modes.
