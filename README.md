@@ -2,7 +2,7 @@
 
 ### Open-source digital camera with film simulation
 
-> **[!WARNING]**
+> [!WARNING]
 > SATURNIX is under active development. The project structure, features, hardware files, and documentation may change.
 > The assembly manual (`SATURNIX_Assembly_Manual.pdf`) is still being revised and may contain errors or outdated information.
 
