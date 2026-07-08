@@ -161,7 +161,19 @@ So I kept going.
 **The first fully working version, about four months ago**
 
 <p align="center">
-  <img src="docs/1.jpg" width="500"/>
+  <img src="docs/1.jpg" width="400">
+</p>
+
+<p align="center">
+  <img src="docs/2.jpg" width="400">
+</p>
+
+<p align="center">
+  <img src="docs/3.jpg" width="400">
+</p>
+
+<p align="center">
+  <img src="docs/4.jpg" width="400">
 </p>
 
 Version 1 was the first SATURNIX build that started to feel like a real camera rather than a loose prototype.
@@ -179,7 +191,7 @@ Many interface features were also missing at this stage. There was no Wi-Fi imag
 Even with all these problems, V1 was an important milestone. It had a real UI, it could take photos, and it was usable enough to bring outside.
 
 <p align="center">
-  <img src="docs/1.jpg" width="500"/>
+  <img src="docs/5.jpg" width="400">
 </p>
 
 I traveled with this version for about a week in the mountains near Calgary and took many photos with it. That trip proved that SATURNIX was no longer just a bench experiment. It was already becoming a real camera.
@@ -392,25 +404,6 @@ This tradeoff is part of the project. SATURNIX is not trying to compete with mod
 
 ## Camera Photo
 
-<p align="center">
-  <img src="docs/1.jpg" width="400">
-</p>
-
-<p align="center">
-  <img src="docs/2.jpg" width="400">
-</p>
-
-<p align="center">
-  <img src="docs/3.jpg" width="400">
-</p>
-
-<p align="center">
-  <img src="docs/4.jpg" width="400">
-</p>
-
-<p align="center">
-  <img src="docs/5.jpg" width="400">
-</p>
 
 ---
 
