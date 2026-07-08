@@ -401,21 +401,29 @@ This tradeoff is part of the project. SATURNIX is not trying to compete with mod
 
 ### Final Build Photos
 
-<p align="center">
-  <img src="docs/release_camera_1.png" width="500"/>
-</p>
-
-<p align="center">
-  <img src="docs/release_camera_2.png" width="500"/>
-</p>
-
-<p align="center">
-  <img src="docs/release_camera_3.png" width="500"/>
-</p>
-
-<p align="center">
-  <img src="docs/release_camera_4.png" width="500"/>
-</p>
+<table>
+  <tr>
+    <td width="50%">
+      <img src="docs/release_camera_1.png" width="100%">
+    </td>
+    <td width="50%">
+      <img src="docs/release_camera_2.png" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="docs/release_camera_3.png" width="100%">
+    </td>
+    <td width="50%">
+      <img src="docs/release_camera_4.png" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="docs/release_camera_5.png" width="50%">
+    </td>
+  </tr>
+</table>
 
 ---
 
