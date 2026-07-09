@@ -59,34 +59,29 @@ Image capture, storage, and processing are handled entirely by the Raspberry Pi 
 
 > **Read first:** the [Assembly Manual (PDF)](./SATURNIX_Assembly_Manual.pdf) contains safety notices for **resin printing** and **lithium battery handling**. Don't skip them. You build and operate this device at your own risk.
 
+---
+
 ### Quick Build Overview
 
-> Open **[`SATURNIX_Assembly_Manual`](./SATURNIX_Assembly_Manual.pdf)** and keep it nearby while building the camera.  
 
-**1. Order the parts** — See the full BOM in Manual §02.  
+> Open **[`SATURNIX_Assembly_Manual`](./SATURNIX_Assembly_Manual.pdf)** and keep it nearby while building the camera.
+
+**1. Order the parts** — See the full BOM in Manual §02.
 Some electronics may take time to ship, so it is best to order the components first and print the parts while you wait.
 
 > [!IMPORTANT]
-> Make sure to order the correct UPS module: **[Waveshare UPS HAT (C)](https://www.waveshare.com/product/ups-hat-c.htm)**.  
+> Make sure to order the correct UPS module: **[Waveshare UPS HAT (C)](https://www.waveshare.com/product/ups-hat-c.htm)**.
 > The case, wiring, battery monitoring, and shutdown behavior are designed around this specific board.
 
-**2. Print the shell** — 3D-printable files are located in the `/hardware` folder.
+**2. Print the shell** — 3D-printable files are located in the `/hardware` folder:
 
-The `/hardware` folder includes:
-
-- `saturnix-camera-buttons.zip`  
-  Keycap files for the mechanical camera buttons. Includes both STL and STEP files.
-
-- `saturnix-camera-print-files-plain.zip`  
-  Main camera body files without logos or text markings. Includes both STL and STEP files.
-
-- `saturnix-camera-print-files-with-logo.zip`  
-  Main camera body files with SATURNIX logos and text markings. Includes both STL and STEP files.
+- `saturnix-camera-buttons.zip` — keycap files for the mechanical camera buttons. Includes both STL and STEP files.
+- `saturnix-camera-print-files-plain.zip` — main camera body files without logos or text markings. Includes both STL and STEP files.
+- `saturnix-camera-print-files-with-logo.zip` — main camera body files with SATURNIX logos and text markings. Includes both STL and STEP files.
 
 The main structural parts are designed for resin/MSLA printing. ABS-like resin is required for better strength and durability. A reference print profile for the Anycubic Photon P1 is included in Manual §03.
 
 **3. Wire the electronics** — See the master GPIO pinout and per-module wiring diagrams in Manual §04.
-
 Note: the UPS HAT factory GPIO header and onboard switch are removed. The HAT is hard-wired because it does not fit inside the shell otherwise. See Manual §06 for details.
 
 **4. Flash and install the software** — Follow Manual §05, or use the condensed setup below:
@@ -97,14 +92,17 @@ Hostname:  saturnix-dione     ← hard-coded, use exactly this
 User:      saturnix / saturnix
 ```
 
-Enable I2C and SPI, install the required packages and the Arducam IMX519 driver, then copy the `python/` and `saturnix-dione/` folders from this repository to the Raspberry Pi Desktop.
+Enable I2C and SPI, install the required packages and the Arducam IMX519 driver, then copy two folders from this repository to the Raspberry Pi:
 
-The paths are currently hard-coded, so keep the folder locations unchanged.
+- `python/` → the Desktop (`~/Desktop/python/`)
+- `saturnix-dione/` → `/home/saturnix-dione/` (the `.sh` scripts are run from this folder via the console)
+
+The paths are hard-coded, so keep the folder locations exactly as above.
 
 Then run:
 
 ```bash
-cd ~/Desktop/saturnix-dione
+cd /home/saturnix-dione
 sudo ./setup_wifi_hotspot.sh   # photo transfer: SaturnixCam / saturnix24 / 192.168.4.1
 sudo ./setup_fast_boot.sh      # autostart on power-up
 sudo reboot
@@ -113,17 +111,17 @@ sudo reboot
 Before closing the case, verify that the display, buttons, autofocus, buzzer, and Wi-Fi hotspot all work correctly.
 
 **5. Assemble the camera** — See the exploded view and the 16 step-by-step assembly photos in Manual §06.
-
 Once everything has been tested with the case open, close the shell, install the screws, and go shoot.
 
 ## Configuration
 
 All main camera behavior is controlled through `config.json`.
-
 This includes ISO and shutter menus, JPEG presets, UI colors, GPIO pins, Wi-Fi settings, and battery thresholds. The full configuration reference is available in Manual §07.
 
 > ⚠️ **The camera automatically shuts down at 5% battery.**
-> If the camera powers off shortly after boot, check the UPS HAT wiring, especially SDA, SCL, and power connections. Also make sure I2C is enabled. For testing, you can temporarily adjust `battery_shutdown_pct/battery_auto_shutdown` in `config.json`.
+> If the camera powers off shortly after boot, check the UPS HAT wiring, especially SDA, SCL, and power connections. Also make sure I2C is enabled. For testing, you can temporarily lower `battery_shutdown_pct` in `config.json`.
+
+> 💡 **Building without a battery?** Set `"battery_auto_shutdown": false` in `config.json` — this disables both the auto-shutdown and the low-battery warning beeps.
 
 ---
 
