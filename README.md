@@ -7,7 +7,7 @@
 > The assembly manual (`SATURNIX_Assembly_Manual.pdf`) is still being revised and may contain errors or outdated information.
 
 <p align="center">
-  <img src="docs/release_camera_1.png" width="500">
+  <img src="docs/images/release_camera_1.png" width="500">
 </p>
 
 ---
@@ -136,15 +136,15 @@ It started as a rough proof-of-concept and gradually evolved into a complete ope
 **This was one of the first working versions — about a year ago.**
 
 <p align="center">
-  <img src="docs/prototype_1.jpg" width="500">
+  <img src="docs/images/prototype_1.jpg" width="500">
 </p>
 
 <p align="center">
-  <img src="docs/prototype_2.jpg" width="500">
+  <img src="docs/images/prototype_2.jpg" width="500">
 </p>
 
 <p align="center">
-  <img src="docs/prototype_3.jpg" width="500">
+  <img src="docs/images/prototype_3.jpg" width="500">
 </p>
 
 The first prototype was a rough proof of concept.
@@ -165,18 +165,18 @@ So I kept going.
 <table>
   <tr>
     <td width="50%">
-      <img src="docs/1.jpg" width="100%">
+      <img src="docs/images/1.jpg" width="100%">
     </td>
     <td width="50%">
-      <img src="docs/2.jpg" width="100%">
+      <img src="docs/images/2.jpg" width="100%">
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <img src="docs/3.jpg" width="100%">
+      <img src="docs/images/3.jpg" width="100%">
     </td>
     <td width="50%">
-      <img src="docs/4.jpg" width="100%">
+      <img src="docs/images/4.jpg" width="100%">
     </td>
   </tr>
 </table>
@@ -196,7 +196,7 @@ Many interface features were also missing at this stage. There was no Wi-Fi imag
 Even with all these problems, V1 was an important milestone. It had a real UI, it could take photos, and it was usable enough to bring outside.
 
 <p align="center">
-  <img src="docs/5.jpg" width="400">
+  <img src="docs/images/5.jpg" width="400">
 </p>
 
 I traveled with this version for about a week in the mountains near Calgary and took many photos with it. That trip proved that SATURNIX was no longer just a bench experiment. It was already becoming a real camera.
@@ -209,7 +209,7 @@ This was also the version I first shared online. To my surprise, it received muc
 **A year later — this is where we ended up**
 
 <p align="center">
-  <img src="docs/release_camera_1.png" width="500"/>
+  <img src="docs/images/release_camera_1.png" width="500"/>
 </p>
 
 Version 2 is the current public release of SATURNIX.
@@ -225,15 +225,15 @@ The goal was not to make SATURNIX look like a clean modern product. I wanted it 
 The case was also completely reworked visually. I experimented with painting and weathering for the first time: an aged ivory base, dark panel lines, washes, dry-brushing, worn labels, and small red details. The result feels much closer to the original idea — a camera that looks like it already has a history.
 
 <p align="center">
-  <img src="docs/release_camera_2.png" width="500"/>
+  <img src="docs/images/release_camera_2.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="docs/release_camera_3.png" width="500"/>
+  <img src="docs/images/release_camera_3.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="docs/release_camera_4.png" width="500"/>
+  <img src="docs/images/release_camera_4.png" width="500"/>
 </p>
 
 Compared to V1, this version is much more complete. The camera now has a proper internal battery setup, a more usable UI, Wi-Fi photo transfer, better feedback, more capture tools, and two different shooting modes.
@@ -404,23 +404,23 @@ This tradeoff is part of the project. SATURNIX is not trying to compete with mod
 <table>
   <tr>
     <td width="50%">
-      <img src="docs/release_camera_1.png" width="100%">
+      <img src="docs/images/release_camera_1.png" width="100%">
     </td>
     <td width="50%">
-      <img src="docs/release_camera_2.png" width="100%">
+      <img src="docs/images/release_camera_2.png" width="100%">
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <img src="docs/release_camera_3.png" width="100%">
+      <img src="docs/images/release_camera_3.png" width="100%">
     </td>
     <td width="50%">
-      <img src="docs/release_camera_4.png" width="100%">
+      <img src="docs/images/release_camera_4.png" width="100%">
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="docs/release_camera_5.png" width="50%">
+      <img src="docs/images/release_camera_5.png" width="50%">
     </td>
   </tr>
 </table>
@@ -432,31 +432,31 @@ This tradeoff is part of the project. SATURNIX is not trying to compete with mod
 <table>
   <tr>
     <td width="50%">
-      <img src="docs/ui_2.png" width="100%">
+      <img src="docs/images/ui_2.png" width="100%">
     </td>
     <td width="50%">
-      <img src="docs/ui_1.png" width="100%">
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <img src="docs/ui_3.png" width="100%">
-    </td>
-    <td width="50%">
-      <img src="docs/ui_4.png" width="100%">
+      <img src="docs/images/ui_1.png" width="100%">
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <img src="docs/ui_5.png" width="100%">
+      <img src="docs/images/ui_3.png" width="100%">
     </td>
     <td width="50%">
-      <img src="docs/ui_6.png" width="100%">
+      <img src="docs/images/ui_4.png" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="docs/images/ui_5.png" width="100%">
+    </td>
+    <td width="50%">
+      <img src="docs/images/ui_6.png" width="100%">
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="docs/ui_7.png" width="50%">
+      <img src="docs/images/ui_7.png" width="50%">
     </td>
   </tr>
 </table>
@@ -467,25 +467,25 @@ This tradeoff is part of the project. SATURNIX is not trying to compete with mod
 
 No filter
 <p align="center">
-  <img src="docs/0_filter.jpg" width="400">
+  <img src="docs/images/0_filter.jpg" width="400">
 </p>
 
 
 S-Gold
 <p align="center">
-  <img src="docs/gold.jpg" width="400">
+  <img src="docs/images/gold.jpg" width="400">
 </p>
 
 
 S-Natural
 <p align="center">
-  <img src="docs/fuji.jpg" width="400">
+  <img src="docs/images/fuji.jpg" width="400">
 </p>
 
 
 S-MonoX
 <p align="center">
-  <img src="docs/TriX.jpg" width="400">
+  <img src="docs/images/TriX.jpg" width="400">
 </p>
 
 ---
@@ -493,19 +493,19 @@ S-MonoX
 ### Photo Samples — Straight Out of Camera (No Filters)
 
 <p align="center">
-  <img src="docs/s_01.jpg" width="400">
+  <img src="docs/images/s_01.jpg" width="400">
 </p>
 
 <p align="center">
-  <img src="docs/s_02.jpg" width="400">
+  <img src="docs/images/s_02.jpg" width="400">
 </p>
 
 <p align="center">
-  <img src="docs/s_03.jpg" width="400">
+  <img src="docs/images/s_03.jpg" width="400">
 </p>
 
 <p align="center">
-  <img src="docs/s_04.jpg" width="400">
+  <img src="docs/images/s_04.jpg" width="400">
 </p>
 
 ---
@@ -519,7 +519,25 @@ https://drive.google.com/drive/folders/19HZnG9zmNsQW2zrbjA84-G9dMtUlpbSJ?usp=dri
 
 ---
 
-## Licensing
+## Support the Project
+
+SATURNIX Dione is released as an open-source project, including the software, and hardware files.
+
+If you find this project useful, interesting, or inspiring, you can support future SATURNIX development.
+
+**I am currently working on a more advanced camera concept with a larger sensor and interchangeable C/CS-mount lenses. Any support helps with prototypes, sensors, lenses, electronics, resin, test prints, and documentation.**
+
+Support is completely optional. The current project will remain open source.
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/yutani140x)
+
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/yutani)
+
+[![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/Yutani140x)
+
+⭐ **Star this repo** to follow the development!
+
+---
 
 ## Licensing
 
@@ -559,20 +577,6 @@ for example:
 **Modified versions must clearly indicate that they are modified versions
 and must not claim to be the original author's own build or release.**
 ---
-
-## Support the Project
-
-SATURNIX is built independently.
-If you want to support development and future releases:
-
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/9S6AgTT6k6)
-
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/yutani140x)
-
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/yutani)
-
-[![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/Yutani140x)
-
 
 ⭐ **Star this repo** to follow the development!
 
