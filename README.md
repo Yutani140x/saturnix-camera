@@ -521,29 +521,43 @@ https://drive.google.com/drive/folders/19HZnG9zmNsQW2zrbjA84-G9dMtUlpbSJ?usp=dri
 
 ## Licensing
 
+## Licensing
+
 This project uses a **multi-license** model:
 
 | What | License | Commercial use |
 |---|---|---|
 | **Firmware** (Python code) | [MIT License](LICENSE) | Allowed |
 | **Hardware** (STEP, STL, CAD files, 3D models, drawings, mechanical parts) | [CERN-OHL-S-2.0](hardware/LICENSE-HARDWARE.md) | Allowed under the license terms |
-| **SATURNIX name and branding** | Permitted for project-related use | Allowed with attribution |
+| **Documentation & media** (README, build guides, photos, diagrams) | [CC-BY-4.0](LICENSE-DOCS.md) | Allowed with attribution |
+| **SATURNIX name & logo** | See naming policy below | Conditional |
 
 You may build, modify, distribute, and sell hardware based on this project,
 including modified versions, provided that you comply with the applicable
-open-source licenses.
+open-source licenses. Note that CERN-OHL-S-2.0 is a *strongly reciprocal*
+license: if you distribute modified hardware, you must also make your
+modified design sources available under the same license and keep a visible
+reference to the source location of this repository.
 
-You may use the **SATURNIX** name for forks, modified versions, compatible
-parts, kits, builds, documentation, and commercial products based on this
-project.
+### Naming policy
 
-Please provide clear attribution to the original project where reasonable, for example:
+The design is fully open. The name is how you tell an official build from a
+third-party one — so it works like this:
+
+- **Free to use, including commercially:** "based on SATURNIX",
+  "SATURNIX-compatible", "SATURNIX-derived" — for forks, modified versions,
+  compatible parts, kits, builds, and documentation.
+- **Reserved for official releases by the original author:** the plain
+  **SATURNIX** name and the SATURNIX logo on their own, without a
+  qualifier. Please don't present third-party builds as official ones.
+
+Please provide clear attribution to the original project where reasonable,
+for example:
 
 > Based on the SATURNIX Camera open-source hardware project by Yutani140x.
 
-**Modified versions should clearly indicate that they are modified versions and
-should not falsely claim to be the original author's own build or release.**
-
+**Modified versions must clearly indicate that they are modified versions
+and must not claim to be the original author's own build or release.**
 ---
 
 ## Support the Project
