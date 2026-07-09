@@ -553,11 +553,11 @@ Thank you to everyone who supported SATURNIX and helped make the project public.
 
 | Supporter | Platform |
 |---|---|
-| Paul Black | Buy Me a Coffee |
-| michael | Buy Me a Coffee |
-| LazyDmedia | Patreon |
+| 🪐Paul Black | Buy Me a Coffee |
+| 🪐michael | Buy Me a Coffee |
+| 🪐LazyDmedia | Patreon |
 
-Additional thanks to Patreon followers and community members who followed the project early:
+✨Additional thanks to Patreon followers and community members who followed the project early:
 
 **Fabrizio Guccione, JoshMahan, Richard Jewkes, RC, Nathan Boom, IxeLWorx.**
 
