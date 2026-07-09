@@ -1,0 +1,307 @@
+{
+  "camera_name": "SATURNIX Dione",
+  "username": "",
+  "firmware_version": "v12-2504",
+  "sensor": "IMX519",
+  "resolution": [
+    4656,
+    3496
+  ],
+  "gpio_pins": {
+    "left": 16,
+    "right": 20,
+    "select": 21,
+    "capture": 23,
+    "focus": 24,
+    "buzzer": 26
+  },
+  "iso_options": [
+    "Auto",
+    100,
+    200,
+    400,
+    800,
+    1600,
+    3200
+  ],
+  "shutter_options": [
+    "Auto",
+    "30s",
+    "15s",
+    "8s",
+    "4s",
+    "2s",
+    "1s",
+    "1/2",
+    "1/4",
+    "1/8",
+    "1/15",
+    "1/30",
+    "1/60",
+    "1/125",
+    "1/250",
+    "1/500",
+    "1/1000",
+    "1/2000"
+  ],
+  "ev_options": [
+    -3.0,
+    -2.0,
+    -1.0,
+    0.0,
+    1.0,
+    2.0,
+    3.0
+  ],
+  "jpeg_quality_options": [
+    1,
+    10,
+    20,
+    70,
+    80,
+    85,
+    90,
+    95,
+    100
+  ],
+  "wb_options": [
+    "Auto",
+    "Daylight",
+    "Cloudy",
+    "Tungsten",
+    "Fluorescent",
+    "Shade"
+  ],
+  "denoise_options": [
+    "Auto",
+    "Off",
+    "Fast",
+    "HQ"
+  ],
+  "focus_options": [
+    "AF-C",
+    "AF-S",
+    "MF"
+  ],
+  "mode_options": [
+    "JPG+DNG",
+    "JPG",
+    "Dynamic"
+  ],
+  "grid_options": [
+    "Off",
+    "Thirds",
+    "Golden",
+    "Cross"
+  ],
+  "film_options": [
+    "Off",
+    "S-Saturnix",
+    "S-Gold",
+    "S-Vivid",
+    "S-Natural",
+    "S-MonoX",
+    "VHS"
+  ],
+  "burst_options": [
+    "Off",
+    3,
+    5,
+    10,
+    20
+  ],
+  "burst_interval_ms": 150,
+  "hdr_options": [
+    "Off",
+    "3-FILES"
+  ],
+  "hdr_ev_steps": [
+    -2.0,
+    0.0,
+    2.0
+  ],
+  "timer_options": [
+    "Off",
+    2,
+    5,
+    10
+  ],
+  "watermark_options": [
+    "Off",
+    "On"
+  ],
+  "watermark_color": [
+    232,
+    165,
+    61
+  ],
+  "watermark_text": "SATURNIX • DIONE",
+  "exif_make": "SATURNIX",
+  "exif_model": "Dione",
+  "exif_software": "LantianFW v12-2504",
+  "battery_critical_pct": 15,
+  "battery_shutdown_pct": 5,
+  "storage_warning_mb": 500,
+  "wifi_ssid": "SaturnixCam",
+  "wifi_password": "saturnix24",
+  "wifi_address": "192.168.4.1",
+  "wifi_interface": "wlan0",
+  "colors": {
+    "text": {
+      "primary": [
+        199,
+        178,
+        153
+      ],
+      "dim": [
+        130,
+        110,
+        90
+      ],
+      "label": [
+        170,
+        145,
+        110
+      ]
+    },
+    "cursor": {
+      "fill": [
+        229,
+        192,
+        81
+      ],
+      "text": [
+        13,
+        14,
+        10
+      ],
+      "glow": [
+        90,
+        70,
+        20
+      ]
+    },
+    "background": {
+      "main": [
+        13,
+        14,
+        10
+      ],
+      "panel": [
+        13,
+        14,
+        10
+      ]
+    },
+    "accent": {
+      "primary": [
+        229,
+        192,
+        81
+      ],
+      "warning": [
+        220,
+        70,
+        40
+      ],
+      "success": [
+        160,
+        190,
+        120
+      ]
+    },
+    "reticle": {
+      "color": [
+        229,
+        192,
+        81
+      ],
+      "af_focusing": [
+        199,
+        178,
+        153
+      ],
+      "af_focused": [
+        229,
+        192,
+        81
+      ],
+      "af_failed": [
+        220,
+        70,
+        40
+      ]
+    },
+    "ui_elements": {
+      "grid": [
+        130,
+        110,
+        90
+      ],
+      "cal_marks": [
+        45,
+        40,
+        32
+      ],
+      "bar_meter_fill": [
+        229,
+        192,
+        81
+      ],
+      "bar_meter_marker": [
+        220,
+        70,
+        40
+      ],
+      "progress_bar": [
+        222,
+        192,
+        145
+      ],
+      "battery": [
+        160,
+        190,
+        120
+      ],
+      "static_noise": [
+        255,
+        255,
+        255
+      ],
+      "transition_noise": [
+        199,
+        178,
+        153
+      ],
+      "technospam": [
+        170,
+        145,
+        110
+      ],
+      "corner_marker": [
+        170,
+        145,
+        110
+      ],
+      "divider": [
+        60,
+        55,
+        45
+      ],
+      "dynamic_indicator": [
+        229,
+        192,
+        81
+      ]
+    }
+  },
+  "screen_rotation": 180,
+  "auto_hide_seconds": 15,
+  "ui_cal_marks": true,
+  "ui_static_noise": true,
+  "ui_transitions": true,
+  "ui_technospam": true,
+  "volume": "MED",
+  "battery_auto_shutdown": true,
+  "native_still": true
+}

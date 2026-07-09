@@ -1,0 +1,19 @@
+{
+  "shutter": "Auto",
+  "iso": "Auto",
+  "wb": "Auto",
+  "ev": 0.0,
+  "denoise": "Auto",
+  "jpegq": 100,
+  "focus": "AF-C",
+  "mode": "JPG+DNG",
+  "grid": "Off",
+  "film": "Off",
+  "volume": "LOW",
+  "galdng": "Off",
+  "burst": "Off",
+  "hdr": "Off",
+  "timer": "Off",
+  "watermark": "Off",
+  "mf_lens_pos": 0.0
+}
