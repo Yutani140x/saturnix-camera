@@ -205,7 +205,7 @@ This was also the version I first shared online. To my surprise, it received muc
 
 ---
 
-## Version 2 — Current Release
+### Version 2 — Current Release
 **A year later — this is where we ended up**
 
 <p align="center">
@@ -544,6 +544,24 @@ No edits, straight from the camera.
 
 Download here:
 https://drive.google.com/drive/folders/19HZnG9zmNsQW2zrbjA84-G9dMtUlpbSJ?usp=drive_link
+
+---
+
+## Supporters
+
+Thank you to everyone who supported SATURNIX and helped make the project public.
+
+| Supporter | Platform |
+|---|---|
+| Paul Black | Buy Me a Coffee |
+| michael | Buy Me a Coffee |
+| LazyDmedia | Patreon |
+
+Additional thanks to Patreon followers and community members who followed the project early:
+
+**Fabrizio Guccione, JoshMahan, Richard Jewkes, RC, Nathan Boom, IxeLWorx.**
+
+Your support helps fund future open-source camera prototypes, documentation, parts, sensors, electronics, and test prints.
 
 ---
 
