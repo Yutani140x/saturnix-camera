@@ -7,7 +7,7 @@
 > The assembly manual (`SATURNIX_Assembly_Manual.pdf`) is still being revised and may contain errors or outdated information.
 
 <p align="center">
-  <img src="docs/brand/saturnix_logo_1.png" width="800">
+  <img src="docs/brand/saturnix_logo_2.png" width="800">
 </p>
 
 ---
