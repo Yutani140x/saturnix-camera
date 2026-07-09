@@ -463,6 +463,34 @@ This tradeoff is part of the project. SATURNIX is not trying to compete with mod
 
 ---
 
+### DYNAMIC mode photo
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="docs/images/dynamic_1.jpg" width="100%">
+    </td>
+    <td width="50%">
+      <img src="docs/images/dynamic_2.jpg" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="docs/images/dynamic_3.jpg" width="100%">
+    </td>
+    <td width="50%">
+      <img src="docs/images/dynamic_4.jpg" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="docs/images/dynamic_5.jpg" width="50%">
+    </td>
+  </tr>
+</table>
+
+---
+
 ### Film Samples
 
 No filter
