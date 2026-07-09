@@ -57,14 +57,14 @@ The camera captures photos in DNG+JPEG format and processes them directly on the
 
 Image capture, storage, and processing are handled entirely by the Raspberry Pi Zero 2 W. No external apps or computer connection are required.
 
-> **Read first:** the [Assembly Manual (PDF)](./SATURNIX_Assembly_Manual.pdf) contains safety notices for **resin printing** and **lithium battery handling**. Don't skip them. You build and operate this device at your own risk.
+> **Read first!:** the [Assembly Manual (PDF)](docs/SATURNIX_Assembly_Manual.pdf) contains safety notices for **resin printing** and **lithium battery handling**. Don't skip them. You build and operate this device at your own risk.
 
 ---
 
 ### Quick Build Overview
 
 
-> Open **[`SATURNIX_Assembly_Manual`](./SATURNIX_Assembly_Manual.pdf)** and keep it nearby while building the camera.
+> Open **[`SATURNIX_Assembly_Manual`](docs/SATURNIX_Assembly_Manual.pdf)** and keep it nearby while building the camera.
 
 **1. Order the parts** — See the full BOM in Manual §02.
 Some electronics may take time to ship, so it is best to order the components first and print the parts while you wait.
