@@ -1,0 +1,13 @@
+Copyright Yutani140x 2025-2026
+
+This documentation describes Open Hardware and is licensed under
+CERN-OHL-S v2.0 or any later version.
+
+You may redistribute and modify this documentation under the terms of
+the CERN-OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt). This
+documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY,
+INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A
+PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable
+conditions.
+
+Source location: https://github.com/Yutani140x/saturnix-camera
