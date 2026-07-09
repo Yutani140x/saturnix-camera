@@ -1,12 +1,21 @@
 # Branding
 
-The SATURNIX name and branding may be used for project-related builds, forks,
-modified versions, compatible parts, documentation, kits, and commercial
-products based on this project.
+The SATURNIX design is fully open. The name is how you tell an official
+build from a third-party one.
+
+**Free to use, including commercially:**
+"based on SATURNIX", "SATURNIX-compatible", "SATURNIX-derived" —
+for forks, modified versions, compatible parts, kits, builds,
+and documentation.
+
+**Reserved for official releases by the original author:**
+the plain SATURNIX name and the SATURNIX logo on their own,
+without a qualifier. Please don't present third-party builds
+as official ones.
 
 Attribution is appreciated:
 
 > Based on the SATURNIX Camera open-source hardware project by Yutani140x.
 
-Modified versions should clearly indicate that they are modified versions and
-should not falsely claim to be the original author's own build or release.
+Modified versions must clearly indicate that they are modified versions
+and must not claim to be the original author's own build or release.
